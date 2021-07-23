@@ -1,0 +1,137 @@
+*{
+  margin: 0;  
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #0084f86e;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#logo{
+  padding: 1rem;
+}
+#logo h1{
+      font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.links{
+      padding: 1rem;
+}
+.links ul {
+    display: flex;
+    list-style: none;
+}
+.links ul li{
+  margin: 0px 30px;
+}
+.links ul li a{
+  text-decoration: none;
+    font-size: 18px;
+    font-family: inherit;
+    color: #6a5f5f;
+}
+.links ul li a:hover{
+  color: black;
+}
+.searchbar{
+    padding: 1rem;
+    position: relative;
+    width: 274px;
+    height: 60px;
+}
+.searchbar input{
+      width: 100%;
+    height: 100%;
+    padding: 2px 10px;
+    border: 1px solid;
+    outline: none;
+    border-radius: 10px;
+}
+.container{
+       position: relative;
+    top: 89px;
+    height: auto;
+    float: left;
+    width: 50%;
+}
+.container h3{
+        font-size: 40px;
+    text-transform: uppercase;
+    margin: 10px 20px;
+}
+.container form{
+      width: 100%;
+    height: auto;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin-left: 20px;
+    margin-top: 35px;
+}
+.mb-3{
+  margin-bottom: 1.5rem;
+}
+.form-label{
+      font-size: 22px;
+    font-weight: 600;
+    margin-right: 116px;
+}
+.form-control{
+        width: 266px;
+    padding: 5px 7px;
+    font-size: 15px;
+    display: flex;
+    position: relative;
+}
+.btn{
+  background-color: darkgray;
+    width: 100px;
+    padding: 7px 4px;
+    border: 1px solid;
+    outline: none;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+}
+.todoslist div{
+  margin: 10px 0px 17px 0px;
+}
+
+.todoslist div h4{
+      font-size: 1.5rem;
+    color: gray;
+    text-decoration: underline;
+}
+.todoslist div p{
+   margin: 7px 0px;
+    padding: 4px 0px;
+    font-family: cursive;
+}
+
+
+
+
+
+/* Footer.js start */
+.bg-dark{
+  background: black;
+}
+.text-light{
+  color: white;
+}
+.py-3{
+      height: 100px;
+    position: relative;
+    top: 150vh;
+}
+/* Footer.js end */
